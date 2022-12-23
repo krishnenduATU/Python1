@@ -21,7 +21,7 @@ transport = int(input("Transportation Charges: ")or 0)
 food = int(input("Food (Groceries & Eating Out): ")or 0)
 mobile = int(input("Mobile & Internet Charges: ")or 0)
 other_exp = int(input("Non-Essential Expenses: ")or 0)
-total_exp = tution_fee + rent + transport + food + mobile
+total_exp = tution_fee + rent + transport + food + mobile + other_exp
 print("Total Expense :", total_exp,"Euro")
 if total_exp > budget:
     print("Your expense is more than budget by ", total_exp - budget,"Euro" )
