@@ -15,7 +15,7 @@ for item in iterable_variable:
 # loop to print even numbers in the list
 print("\nEven numbers in list are : " , end =" ")
 for item in iterable_variable: 
-    if item %2 != 0: 
+    if item %2 == 0: 
         print(item,end=" ")
 
 # To add each number in the list
