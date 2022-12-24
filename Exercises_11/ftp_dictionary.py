@@ -15,7 +15,7 @@ import ftplib
 ftp_heanet = {
     "url"  : "ftp.heanet.ie",
     "path" : "/mirrors/ubuntu-cdimage/releases/22.04/release",
-    "filename" : "RSA24"
+    "filename" : "SHA256SUMS"
 }
 # Main code
 # Make the connection
