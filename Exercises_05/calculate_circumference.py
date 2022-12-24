@@ -12,7 +12,7 @@ which return the circumference of circle.
 '''
 def calculate_circumference(radius):
     # circumference of circle is 2* pie *radius, 2f means rouding to 2 float digits
-    circumference = f'{(2 * 2.142 * radius) :.2f}'
+    circumference = f'{(2 * 3.142 * radius) :.2f}'
     return circumference
 # Takes input in float type, default value is set to 1
 radius_of_circle = float(input("Enter radius of circle : ")or 1)
