@@ -39,5 +39,11 @@ while True:
             print(f"Writing logs to {filepath}")
             file_handle.write(logline)
     except IOError as err: 
-        print(f"IOError was {err}") 
+        print(f"IOError was {err}")  
+    except EOFError as err: 
+        print(f"End of file error was {err}") 
+    except OSError as err:
+        print("OS Error was {err}") 
+    except: 
+        print("General Error") 
   
