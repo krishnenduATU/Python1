@@ -6,8 +6,8 @@
 **[Requirements](#requirements)**<br>
 **[Tested On](#tested-on)**<br>
 **[Sample Execution](#sample-execution)**<br>
-**[Bug Fix](#bug-fix)**<br>
-**[Features](#features)**<br>
+**[Bug Fix Request](#bug-fix-request)**<br>
+**[Feature Request](#feature-request)**<br>
 
 # Description
 This repository contains Python exercises from the Infrastructure as Code (IaC) module's work during weeks two to five. This will help students to develop Python programming skills.
