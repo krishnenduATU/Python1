@@ -6,6 +6,7 @@
 **[Tested On](#tested-on)**<br>
 **[Sample Execution](#sample-execution)**<br>
 **[Overview](#overview)**<br>
+**[Git Branching Strategy](#git-branching-strategy)**<br>
 **[Bug Fix Request](#bug-fix-request)**<br>
 **[Feature Request](#feature-request)**<br>
 **[Authors](#authors)**<br>
@@ -45,6 +46,18 @@ python <script_name>.py
 | Exercises_10 | To demonstrate use of Python standard libraries  |
 | Exercises_11 | To demonstrate how Python can be used to manage network utilities  | 
 | Exercises_12 | To delve into the Python project structure  | 
+
+## Git Branching Strategy
+
+An efficient branching strategy is useful in separating code that is currently in development from stable code for production environments. Below are the branches created for this project:
+
+- Main: Current State of the production environment, contains only stable codes.
+- Dev: Code development starts at this branch, features are added first to this branch.
+- Test:  For extensive testing and bug fixes.
+- Feature: Created from the development branch to add new code features.
+- Bug Fix: Created from the test branch to fix code bugs.
+
+The "main" branch stores only stable code and needs to be protected from accidental commits. This is done by setting branch protection rules for this branch. Here, before pulling/merging requests to the "main" branch, it requires at least one approver with write permissions in the repository or from a designated code owner to review the changes.
 
 ## Bug Fix Request
 
