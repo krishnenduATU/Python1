@@ -9,6 +9,7 @@
 **[Bug Fix Request](#bug-fix-request)**<br>
 **[Feature Request](#feature-request)**<br>
 **[Overview](#overview)**<br>
+**[Authors](#authors)**<br>
 **[Conclusion](#conclusion)**<br>
 
 # Description
@@ -80,7 +81,7 @@ git clone https://github.com/krishnenduATU/Python.git
 
 ## Overview
 
-| Exercises   |      Usage      | 
+| Exercises   |      Description     | 
 |----------| :---------------|
 | Exercises_01 | To comprehend assignment, operators, and variables' interactions   | 
 | Exercises_02 | To understand the importance of comments and docstrings while writing scripts   | 
@@ -95,7 +96,12 @@ git clone https://github.com/krishnenduATU/Python.git
 | Exercises_11 | To demonstrate how Python can be used to manage network utilities  | 
 | Exercises_12 | To delve into the Python project structure  | 
 
+## Authors
+
+This Python repository was developed as a part of Infrastructure as Code module's assignment by Krishnendu VP.  
+
 ## Conclusion
 
 This Python repository covered the fundamental concepts of Python and offered a doable strategy for improving programming skills. In accordance with the provided exercises and research on the same, learners should be able to build and organise Python projects for network or server administration, log analysis, and the automation of routine tasks.
+
 
