@@ -76,3 +76,19 @@ git clone https://github.com/krishnenduATU/Python.git
 
  Feature requests can be found at [Features](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement+)
 
+## Overview
+
+| Exercises   |      Usage      | 
+|----------| :---------------|
+| Exercises_01 | To comprehend assignment, operators, and variables' interactions   | 
+| Exercises_02 | To understand the importance of comments and docstrings while writing scripts   | 
+| Exercises_03 | To explore the use of Python's data structures |
+| Exercises_04 | To begin writing Python code that uses control flows and statements  | 
+| Exercises_05 | To illustrate use of functions for code reuse | 
+| Exercises_06 | To understand modules, and packages in Python| 
+| Exercises_07 | To systematically handle errors in Python |
+| Exercises_08 | To improve scalability and code reuse via Object-Oriented (OO) coding | 
+| Exercises_09 | To develop Python tests that effectively demonstrate unit testing | 
+| Exercises_10 | To demonstrate use of Python standard libraries  |
+| Exercises_11 | To demonstrate how Python can be used to manage network utilities  | 
+| Exercises_12 | To delve into the Python project structure  | 
