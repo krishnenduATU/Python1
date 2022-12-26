@@ -57,7 +57,10 @@ An efficient branching strategy is useful in separating code that is currently i
 - Feature: Created from the development branch to add new code features.
 - Bug Fix: Created from the test branch to fix code bugs.
 
-The "main" branch stores only stable code and needs to be protected from accidental commits. This is done by setting branch protection rules for this branch. Here, before pulling/merging requests to the "main" branch, it requires at least one approver with write permissions in the repository or from a designated code owner to review the changes.
+The "main" branch stores only stable code and needs to be protected from accidental commits. This is done by setting branch protection rules for this branch. Here, before pulling/merging requests to the "main" branch, it requires at least one approver with write permissions in the repository or from a designated code owner to review and approve the changes.
+
+![image](https://user-images.githubusercontent.com/119352610/209552683-8e19d791-8e86-4ff9-9212-3cecc11ce98a.png)
+
 
 ## Bug Fix Request
 
