@@ -7,7 +7,7 @@
 **[Tested On](#tested-on)**<br>
 **[Sample Execution](#sample-execution)**<br>
 **[Bug Fix](#bug-fix)**<br>
-**[Authors](#authors)**<br>
+**[Features](#features)**<br>
 
 # Description
 This repository contains Python exercises from the Infrastructure as Code (IaC) module's work during weeks two to five. This will help students to develop Python programming skills.
@@ -28,7 +28,20 @@ python <script_name>.py
 ``` 
 
 ## Bug Fix
-[Bug Fix](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
 
+If developers encounter a bug with one of the Python programs, please follow the below steps:
+- A "Bug" issue is created for the identified bug as shown below.
+
+![image](https://user-images.githubusercontent.com/119352610/209512161-854ed88e-c16c-474d-b11d-da1ad1154951.png)
+
+- A new branch is created from the "test" branch, named "BugFix#<bug fix number>"
+- A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, "BugFix #4 : Corrected Pie value "
+- Now merge the newly created bug fix branch into the "test" branch. Delete the bugfix branch once it has been merged.
+- Checkout to "dev" branch and merge the changes made in the "test" branch.
+- In the end, the changes from "dev" branch is merged to "main" branch.
+
+Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
+
+## Features
 [Features](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement+)
 
