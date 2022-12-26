@@ -8,9 +8,11 @@
 **[Sample Execution](#sample-execution)**<br>
 **[Bug Fix Request](#bug-fix-request)**<br>
 **[Feature Request](#feature-request)**<br>
+**[Overview](#overview)**<br>
+**[Conclusion](#conclusion)**<br>
 
 # Description
-This repository contains Python exercises from the Infrastructure as Code (IaC) module's work during weeks two to five. This will help students to develop Python programming skills.
+This Python repository briefly introduces Python as a suitable language for learning coding and real-world programming. Control-flow statements, types of data structures, Python's well-known standard libraries, handling errors in Python, and object-oriented programming have all been covered in this Git repository.
 
 ## Requirements
 - Operating System : > Windows-10, Ubuntu 22.04.1 LTS
@@ -92,3 +94,8 @@ git clone https://github.com/krishnenduATU/Python.git
 | Exercises_10 | To demonstrate use of Python standard libraries  |
 | Exercises_11 | To demonstrate how Python can be used to manage network utilities  | 
 | Exercises_12 | To delve into the Python project structure  | 
+
+## Conclusion
+
+This Python repository covered the fundamental concepts of Python and offered a doable strategy for improving programming skills. In accordance with the provided exercises and research on the same, learners should be able to build and organise Python projects for network or server administration, log analysis, and the automation of routine tasks.
+
