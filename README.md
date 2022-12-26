@@ -1,6 +1,5 @@
 # Python
 
-
 ### Table of Contents
 **[Description](#description)**<br>
 **[Requirements](#requirements)**<br>
@@ -48,7 +47,7 @@ git clone https://github.com/krishnenduATU/Python.git
 
 - A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, "BugFix #4 : Corrected Pie value "
 - Now merge the newly created bug fix branch into the "test" branch. Delete the bugfix branch once it has been merged.
-- Checkout to "dev" branch and merge the changes made in the "test" branch.
+- Checkout to "dev" branch and merge the changes made in the "test" branch so that all the branch are in same state..
 - Push the changes on local "dev" and "test" branches to remote repo 
 - In the end, the changes from "dev" branch is pulled to "main" branch and issue is closed in GitHub.
  
