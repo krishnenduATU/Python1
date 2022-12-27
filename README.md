@@ -58,6 +58,17 @@ Remote server setup script.
 | Setup DC2.ps1  | To add doamin controller and DHCP | 
 | Setup Server-1.ps1  | To setup DNS | 
 
+#### Desired State Configuration (DSC)
+
+In order to manage and configure the desired state of a system, PowerShell introduced a feature known as Desired State Configuration (DSC), which helps administrators to declaratively specify the configuration of the system, including the software and services that should be installed and running, the security settings that should be applied, and the configuration settings that should be used. In environments with many systems or where systems need to be quickly and consistently configured, administrators can make use of DSC along with automation to ensure that all systems are always in the desired state, which reduces the need for manual intervention.
+
+To use DSC, a DSC configuration file is created in PowerShell and uses the Configuration keyword to define the configuration, followed by a block of code that specifies the desired state by using various built-in DSC resources. When the file is executed, a Managed Object Format (MOF) file is created, which Windows Management Instrumentation (WMI) uses to configure the target machine. The cmdlet "Start-DscConfiguration" is used to apply the configuration to the systems. This cmdlet takes the configuration file as an input and applies the desired state to target systems. If any differences are found between the current state of the systems and the desired state, DSC will automatically make the necessary changes to bring the systems into compliance.
+
+| Script   |      Usage     | 
+|----------| :---------------|
+| dsc1.ps1 | To ensure that RSAT,DNS feature is present  | 
+| ApplyDSC.ps1 | To apply configuration to nodes   | 
+
 ## Git Branching Strategy
 
 An efficient branching strategy is useful in separating code that is currently in development from stable code for production environments. Below are the branches created for this project:
