@@ -88,7 +88,8 @@ The "main" branch stores only stable code and needs to be protected from acciden
 
 Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/PowerShell/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
 
-If developers encounter a bug with one of the PowerShell scripts, please follow the below steps:
+If developers encounter a bug with one of the PowerShell scripts, the steps below should be followed:
+
 - A "Bug" issue is created for the identified bug as shown below.
 
 ![image](https://user-images.githubusercontent.com/119352610/209618576-2e6813f6-3ba6-462f-a658-828333d81e97.png)
