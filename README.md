@@ -42,6 +42,22 @@ In PowerShell, tests are used to evaluate the value of an expression and determi
 | do_until.ps1  | To repeatedly execute statements as long as the condition is false | 
 | TaxCalculation.ps1 | To develop PowerShell script to calculate VAT | 
 
+#### Remote Control
+
+Remote server setup script.
+
+| Script   |      Usage     | 
+|----------| :---------------|
+| DHCP.ps1 | To install DHCP feature and create scope on a Remote server  | 
+| DemoteDC.ps1 | To uninstall a domain controller in Active Directory   | 
+| DiskRecce.ps1 | To recce on a remote servers disks  |
+| ExportVMs.ps1 | To prepare, partition and format disks | 
+| PGDipCLOD2022.ps1 | To create AD users from a csv file | 
+| RemoteServer.ps1 | To Backsup VMs | 
+| Setup DC1.ps1 | To setup Active Directory Forest/domain  |
+| Setup DC2.ps1  | To add doamin controller and DHCP | 
+| Setup Server-1.ps1  | To setup DNS | 
+
 ## Git Branching Strategy
 
 An efficient branching strategy is useful in separating code that is currently in development from stable code for production environments. Below are the branches created for this project:
