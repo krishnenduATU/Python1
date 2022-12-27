@@ -12,7 +12,7 @@
 **[Conclusion](#conclusion)**<br>
 
 # Description
-This PowerShell repository covered the fundamental concepts of PowerShell and provided a practical method for honing scripting skills. In accordance with the Exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, to manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and to control nearly every aspect of the Windows operating system.
+This PowerShell repository covered the fundamental concepts of PowerShell and provided a practical method for honing scripting skills. In accordance with the exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and control nearly every aspect of the Windows operating system.
 
 ## Requirements
 - Operating System : > Windows-10
@@ -24,20 +24,23 @@ Windows-10-10.0.22621-SP0 with PowerShell version 7.3.0
 
 ## Overview
 
-| Exercises   |      Description     | 
+#### Variables_and_Loops
+
+Variables are an essential part of any programming language, and PowerShell is no exception. In Windows PowerShell, a variable is a named storage location to store, retrieve, and manipulate data within scripts and modules. To create a variable in PowerShell, use the $ character followed by the variable name. To retrieve the value of a variable, type the variable name, preceded by a dollar sign ($), or use Write-Output. PowerShell also provides some additional features for variables, such as Clear-Variable to delete the value of a variable, Remove-Variable to delete the variable, etc. Variables can store any type of object, including integers, strings, and arrays. To view a variable's object type, use GetType(). As variables play a vital role in the script, it is important to follow a standard naming convention for variables that, for instance, includes only alphanumeric characters and the underscore (_) character. 
+
+In PowerShell, tests are used to evaluate the value of an expression and determine if it meets certain criteria. Tests can be used in a variety of situations, such as in if statements to control the flow of a script, in while loops to determine when to stop looping, and in switch statements to match a value against multiple possible options. PowerShell provides a number of built-in control flow constructs such as for, foreach, do, while, and so on, which are typically used to make decisions, repeat blocks of code, and perform other tasks that require more complex control flow than a simple sequential execution of statements
+
+| Script   |      Usage     | 
 |----------| :---------------|
-| Exercises_01 | To comprehend assignment, operators, and variables' interactions   | 
-| Exercises_02 | To understand the importance of comments and docstrings while writing scripts   | 
-| Exercises_03 | To explore the use of Python's data structures |
-| Exercises_04 | To begin writing Python code that uses control flows and statements  | 
-| Exercises_05 | To illustrate use of functions for code reuse | 
-| Exercises_06 | To understand modules, and packages in Python| 
-| Exercises_07 | To systematically handle errors in Python |
-| Exercises_08 | To improve scalability and code reuse via Object-Oriented (OO) coding | 
-| Exercises_09 | To develop Python tests that effectively demonstrate unit testing | 
-| Exercises_10 | To demonstrate use of Python standard libraries  |
-| Exercises_11 | To demonstrate how Python can be used to manage network utilities  | 
-| Exercises_12 | To delve into the Python project structure  | 
+| variables_and_types.ps1 | To comprehend assignment, operators, and variables' interactions   | 
+| string_types.ps1 | To understand the string manipulations   | 
+| ifconditions.ps1 | To begin writing Python code that uses control flows and statements  |
+| switch.ps1 | To allow a variable to be tested for equality against a list of values | 
+| while.ps1 | To run a command till the condition evaluates to true | 
+| while_switch.ps1 | To implement while with switch | 
+| forloop.ps1 | To iterate through an array of values |
+| do_until.ps1  | To repeatedly execute statements as long as the condition is false | 
+| TaxCalculation.ps1 | To develop PowerShell script to calculate VAT | 
 
 ## Git Branching Strategy
 
