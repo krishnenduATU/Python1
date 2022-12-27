@@ -44,7 +44,7 @@ In PowerShell, tests are used to evaluate the value of an expression and determi
 
 #### Remote Control
 
-Remote server setup script.
+A collection of exercises for administering remote Windows server with PowerShell.
 
 | Script   |      Usage     | 
 |----------| :---------------|
@@ -86,21 +86,22 @@ The "main" branch stores only stable code and needs to be protected from acciden
 
 ## Bug Fix Request
 
-Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
+Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/PowerShell/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
 
 If developers encounter a bug with one of the Python programs, please follow the below steps:
 - A "Bug" issue is created for the identified bug as shown below.
 
-![image](https://user-images.githubusercontent.com/119352610/209512161-854ed88e-c16c-474d-b11d-da1ad1154951.png)
+![image](https://user-images.githubusercontent.com/119352610/209618576-2e6813f6-3ba6-462f-a658-828333d81e97.png)
 
 - Clone the Python repo to local machine.
 ```
 git clone https://github.com/krishnenduATU/Python.git
 ``` 
 
-- A new branch is created from the "test" branch, named "bug_fix_#<bug_fix_number>"
+- A new branch is created from the "test" branch, named "BugFix#<bug_fix_number>"
   
-  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
+![image](https://user-images.githubusercontent.com/119352610/209617745-41afe240-d0be-4581-a435-3cdf18b7f082.png)
+
 
 - A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, "BugFix #4 : Corrected Pie value "
 - Now merge the newly created bug fix branch into the "test" branch. Delete the bugfix branch once it has been merged.
@@ -110,13 +111,13 @@ git clone https://github.com/krishnenduATU/Python.git
  
 ## Feature Request
 
-Feature requests can be found at [Features](https://github.com/krishnenduATU/Python/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement+)
+Feature requests can be found at [Features](https://github.com/krishnenduATU/PowerShell/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement)
 
 To create a new feature in the Python programs, developer should follow below steps :
 
 - A "Enhancement" issue is created as shown below.
 
-![image](https://user-images.githubusercontent.com/119352610/209514336-9782f35b-9747-4cbf-8f4e-07a7eddee361.png)
+![image](https://user-images.githubusercontent.com/119352610/209618347-f6bb1740-0818-4151-9490-34ba1f31881d.png)
 
 - Clone the Python repo to the local machine.
 ```
@@ -124,9 +125,6 @@ git clone https://github.com/krishnenduATU/Python.git
 ``` 
 
 - A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.  
-
-  ![image](https://user-images.githubusercontent.com/119352610/209512959-1c818968-b75a-4623-8da4-0d8ba7fb0074.png)
-  
 - Developer will work on the new feature. Then commits the changes. Make sure to add issue number to the commit message, for example "Feature #8 : Created UDP server and client scripts" to track the changes.
 - Now, checkout to "dev" branch and merge the newly created feature branch. Delete the feature branch.
 - Checkout to "test" branch and merge the changes made in "dev" branch so that all the branch are in same state.
