@@ -51,9 +51,9 @@ Remote server setup script.
 | DHCP.ps1 | To install DHCP feature and create scope on a Remote server  | 
 | DemoteDC.ps1 | To uninstall a domain controller in Active Directory   | 
 | DiskRecce.ps1 | To recce on a remote servers disks  |
-| ExportVMs.ps1 | To prepare, partition and format disks | 
+| DiskOperations.ps1 | To prepare, partition and format disks | 
 | PGDipCLOD2022.ps1 | To create AD users from a csv file | 
-| RemoteServer.ps1 | To Backsup VMs | 
+| ExportVMs.ps1 | To Backsup VMs | 
 | Setup DC1.ps1 | To setup Active Directory Forest/domain  |
 | Setup DC2.ps1  | To add doamin controller and DHCP | 
 | Setup Server-1.ps1  | To setup DNS | 
