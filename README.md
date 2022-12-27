@@ -122,7 +122,7 @@ git clone https://github.com/krishnenduATU/PowerShell.git
 ``` 
 
 - A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.  
-- Developer will work on the new feature. Then commits the changes. Make sure to add issue number to the commit message, for example "Feature #8 : Created UDP server and client scripts" to track the changes.
+- Developer will work on the new feature. Then commits the changes. Make sure to add issue number to the commit message, for example " Feature #4 : Created Disk Recce script " to track the changes.
 - Now, checkout to "dev" branch and merge the newly created feature branch. Delete the feature branch.
 - Checkout to "test" branch and merge the changes made in "dev" branch so that all the branch are in same state.
 - Push the changes on local "dev" and "test" branches to remote repo.
