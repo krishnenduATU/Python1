@@ -123,7 +123,10 @@ To create a new feature in the PowerShell scripts, developer should follow below
 git clone https://github.com/krishnenduATU/PowerShell.git
 ``` 
 
-- A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.  
+- A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.
+  
+  ![image](https://user-images.githubusercontent.com/119352610/209641449-c5a0ee6d-5888-4de5-9920-58fa1629062b.png)
+
 - Developer will work on the new feature. Then commits the changes. Make sure to add issue number to the commit message, for example " Feature #4 : Created Disk Recce script " to track the changes.
 - Now, checkout to "dev" branch and merge the newly created feature branch. Delete the feature branch.
 - Checkout to "test" branch and merge the changes made in "dev" branch so that all the branch are in same state.
