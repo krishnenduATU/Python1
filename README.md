@@ -5,9 +5,6 @@
 **[Requirements](#requirements)**<br>
 **[Tested On](#tested-on)**<br>
 **[Overview](#overview)**<br>
-+ [Variables and Loops](#variables-and-loops)<br>
-+ [Remote Control](#remote-control)<br>
-+ [Desired State Configuration](#desired-state-configuration)<br>
 **[Git Branching Strategy](#git-branching-strategy)**<br>
 **[Bug Fix Request](#bug-fix-request)**<br>
 **[Feature Request](#feature-request)**<br>
@@ -15,6 +12,7 @@
 **[Conclusion](#conclusion)**<br>
 
 # Description
+
 This PowerShell repository covers the fundamental concepts of PowerShell and provides a practical method for honing scripting skills. In accordance with the exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and control nearly every aspect of the Windows operating system.
 
 ## Requirements
@@ -37,7 +35,7 @@ In PowerShell, tests are used to evaluate the value of an expression and determi
 |----------| :---------------|
 | variables_and_types.ps1 | To comprehend assignment, operators, and variables' interactions   | 
 | string_types.ps1 | To understand the string manipulations   | 
-| ifconditions.ps1 | To begin writing Python code that uses control flows and statements  |
+| ifconditions.ps1 | To begin writing PowerShell code that uses control flows and statements  |
 | switch.ps1 | To allow a variable to be tested for equality against a list of values | 
 | while.ps1 | To run a command till the condition evaluates to true | 
 | while_switch.ps1 | To implement while with switch | 
@@ -119,7 +117,7 @@ To create a new feature in the PowerShell scripts, developer should follow below
 
 ![image](https://user-images.githubusercontent.com/119352610/209618347-f6bb1740-0818-4151-9490-34ba1f31881d.png)
 
-- Clone the PowerShell repo to the local machine.
+- Clone the PowerShell repository to the local machine.
 ```
 git clone https://github.com/krishnenduATU/PowerShell.git
 ``` 
@@ -133,10 +131,10 @@ git clone https://github.com/krishnenduATU/PowerShell.git
 
 ## Authors
 
-This Python repository was developed as a part of Infrastructure as Code module's assignment by Krishnendu VP.  
+This PowerShell repository was developed as a part of Infrastructure as Code module's assignment by Krishnendu VP.  
 
 ## Conclusion
 
-This Python repository covered the fundamental concepts of Python and offered a doable strategy for improving programming skills. In accordance with the provided exercises and research on the same, learners should be able to build and organise Python projects for network or server administration, log analysis, and the automation of routine tasks.
+This PowerShell repository briefly introduced PowerShell as a viable scripting language for automating, managing administrative tasks, and configuring Windows systems. Its rich and extensible architecture, powerful features, and wide range of built-in cmdlets make it a valuable tool for IT professionals, providing a powerful and versatile way to automate and manage many different tasks in the Windows operating system.
 
 
