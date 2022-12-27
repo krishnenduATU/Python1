@@ -5,6 +5,9 @@
 **[Requirements](#requirements)**<br>
 **[Tested On](#tested-on)**<br>
 **[Overview](#overview)**<br>
++ [Variables and Loops](#variables-and-loops)<br>
++ [Remote Control](#remote-control)<br>
++ [Desired State Configuration](#desired-state-configuration)<br>
 **[Git Branching Strategy](#git-branching-strategy)**<br>
 **[Bug Fix Request](#bug-fix-request)**<br>
 **[Feature Request](#feature-request)**<br>
@@ -24,7 +27,7 @@ Windows-10-10.0.22621-SP0 with PowerShell version 7.3.0
 
 ## Overview
 
-#### Variables_and_Loops
+#### Variables and Loops
 
 Variables are an essential part of any programming language, and PowerShell is no exception. In Windows PowerShell, a variable is a named storage location to store, retrieve, and manipulate data within scripts and modules. To create a variable in PowerShell, use the $ character followed by the variable name. To retrieve the value of a variable, type the variable name, preceded by a dollar sign ($), or use Write-Output. PowerShell also provides some additional features for variables, such as Clear-Variable to delete the value of a variable, Remove-Variable to delete the variable, etc. Variables can store any type of object, including integers, strings, and arrays. To view a variable's object type, use GetType(). As variables play a vital role in the script, it is important to follow a standard naming convention for variables that, for instance, includes only alphanumeric characters and the underscore (_) character. 
 
@@ -58,7 +61,7 @@ A collection of exercises for administering Windows servers remotely with PowerS
 | Setup DC2.ps1  | To add doamin controller and DHCP | 
 | Setup Server-1.ps1  | To setup DNS | 
 
-#### Desired State Configuration (DSC)
+#### Desired State Configuration
 
 In order to manage and configure the desired state of a system, PowerShell introduced a feature known as Desired State Configuration (DSC), which helps administrators to declaratively specify the configuration of the system, including the software and services that should be installed and running, the security settings that should be applied, and the configuration settings that should be used. In environments with many systems or where systems need to be quickly and consistently configured, administrators can make use of DSC along with automation to ensure that all systems are always in the desired state, which reduces the need for manual intervention.
 
