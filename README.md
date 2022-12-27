@@ -12,7 +12,7 @@
 **[Conclusion](#conclusion)**<br>
 
 # Description
-This PowerShell repository covered the fundamental concepts of PowerShell and provided a practical method for honing scripting skills. In accordance with the exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and control nearly every aspect of the Windows operating system.
+This PowerShell repository covers the fundamental concepts of PowerShell and provides a practical method for honing scripting skills. In accordance with the exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and control nearly every aspect of the Windows operating system.
 
 ## Requirements
 - Operating System : > Windows-10
@@ -44,7 +44,7 @@ In PowerShell, tests are used to evaluate the value of an expression and determi
 
 #### Remote Control
 
-A collection of exercises for administering remote Windows server with PowerShell.
+A collection of exercises for administering Windows servers remotely with PowerShell.
 
 | Script   |      Usage     | 
 |----------| :---------------|
@@ -81,47 +81,44 @@ An efficient branching strategy is useful in separating code that is currently i
 
 The "main" branch stores only stable code and needs to be protected from accidental commits. This is done by setting branch protection rules for this branch. Here, before pulling/merging requests to the "main" branch, it requires at least one approver with write permissions in the repository or from a designated code owner to review and approve the changes.
 
-![image](https://user-images.githubusercontent.com/119352610/209552683-8e19d791-8e86-4ff9-9212-3cecc11ce98a.png)
-
+![image](https://user-images.githubusercontent.com/119352610/209624457-3922fbfe-1f97-4843-94b8-20d72dbe86e6.png)
 
 ## Bug Fix Request
 
 Reported bugs can be found at [Bug Fix](https://github.com/krishnenduATU/PowerShell/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)  
 
-If developers encounter a bug with one of the Python programs, please follow the below steps:
+If developers encounter a bug with one of the PowerShell scripts, please follow the below steps:
 - A "Bug" issue is created for the identified bug as shown below.
 
 ![image](https://user-images.githubusercontent.com/119352610/209618576-2e6813f6-3ba6-462f-a658-828333d81e97.png)
 
-- Clone the Python repo to local machine.
+- Clone the PowerShell repo to local machine.
 ```
-git clone https://github.com/krishnenduATU/Python.git
+git clone https://github.com/krishnenduATU/PowerShell.git
 ``` 
-
 - A new branch is created from the "test" branch, named "BugFix#<bug_fix_number>"
   
 ![image](https://user-images.githubusercontent.com/119352610/209617745-41afe240-d0be-4581-a435-3cdf18b7f082.png)
 
-
-- A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, "BugFix #4 : Corrected Pie value "
+- A developer will work on the bug and fix the issue, then commit the changes. Make sure to add the bug fix number to the commit message, for example, " BugFix #1 : Updated VAT variable value"
 - Now merge the newly created bug fix branch into the "test" branch. Delete the bugfix branch once it has been merged.
-- Checkout to "dev" branch and merge the changes made in the "test" branch so that all the branch are in same state..
-- Push the changes on local "dev" and "test" branches to remote repo 
+- Checkout to "dev" branch and merge the changes made in the "test" branch so that all the branch are in same state.
+- Push the changes on local "dev" and "test" branches to remote repo. 
 - In the end, the changes from "dev" branch is pulled to "main" branch and issue is closed in GitHub.
  
 ## Feature Request
 
 Feature requests can be found at [Features](https://github.com/krishnenduATU/PowerShell/issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement)
 
-To create a new feature in the Python programs, developer should follow below steps :
+To create a new feature in the PowerShell scripts, developer should follow below steps :
 
 - A "Enhancement" issue is created as shown below.
 
 ![image](https://user-images.githubusercontent.com/119352610/209618347-f6bb1740-0818-4151-9490-34ba1f31881d.png)
 
-- Clone the Python repo to the local machine.
+- Clone the PowerShell repo to the local machine.
 ```
-git clone https://github.com/krishnenduATU/Python.git
+git clone https://github.com/krishnenduATU/PowerShell.git
 ``` 
 
 - A new branch is created from "dev" branch, named "Feature_#<issue number>" as shown below.  
