@@ -1,10 +1,9 @@
-# Python
+# PowerShell
 
 ### Table of Contents
 **[Description](#description)**<br>
 **[Requirements](#requirements)**<br>
 **[Tested On](#tested-on)**<br>
-**[Sample Execution](#sample-execution)**<br>
 **[Overview](#overview)**<br>
 **[Git Branching Strategy](#git-branching-strategy)**<br>
 **[Bug Fix Request](#bug-fix-request)**<br>
@@ -13,22 +12,15 @@
 **[Conclusion](#conclusion)**<br>
 
 # Description
-This Python repository briefly introduces Python as a suitable language for learning coding and real-world programming. Control-flow statements, types of data structures, Python's well-known standard libraries, handling errors in Python, and object-oriented programming have all been covered in this Git repository.
+This PowerShell repository covered the fundamental concepts of PowerShell and provided a practical method for honing scripting skills. In accordance with the Exercises provided and research on the same, learners should be able to use PowerShell to automate a wide range of tasks, to manage enterprise infrastructure using PowerShell's Desired State Configuration (DSC) framework, and to control nearly every aspect of the Windows operating system.
 
 ## Requirements
-- Operating System : > Windows-10, Ubuntu 22.04.1 LTS
-- Python :  > Version 3.10.7 
+- Operating System : > Windows-10
+- PowerShell :  > PowerShell 5.1.22621.963
 
 ## Tested On
 
-Windows-10-10.0.22621-SP0 with Python version 3.10.7
-
-## Sample Execution 
-
-Go to the Exercises directory and run below command :
-```python
-python <script_name>.py
-``` 
+Windows-10-10.0.22621-SP0 with PowerShell version 7.3.0
 
 ## Overview
 
